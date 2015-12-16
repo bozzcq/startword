@@ -14,7 +14,7 @@ import android.os.Message;
  * 功能：使用ViewPager实现初次进入应用时的引导页
  *
  * (1)判断是否是首次加载应用--采取读取SharedPreferences的方法
- * (2)是，则进入引导activity；否，则进入MainActivity
+ * (2)是，则进入引导GuideActivity；否，则进入MainActivity
  * (3)5s后执行(2)操作
  *
  * @author sz082093

@@ -8,4 +8,39 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="TransparentStyleBottom">
+
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <!--item name="android:windowAnimationStyle">@style/AnimBottom</item-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <!--item name="android:windowBackground">@android :color/transparent</item--><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+
+    <style name="Transparent" >
+
+        <!-- 设置允许窗口半透明 -->
+
+        <item name="android:windowIsTranslucent">true</item>
+
+        <!-- 引用Android系统的动画半透明样式 -->
+
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+
+        <!-- 设定窗口背景颜色 -->
+
+        <item name="android:windowBackground">@drawable/guide1</item>
+
+        <!-- 隐藏窗口标题栏 -->
+
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- 设定文字前景色 -->
+
+        <item name="android:colorForeground">#fff</item>
+
+    </style>
+
 </resources>
